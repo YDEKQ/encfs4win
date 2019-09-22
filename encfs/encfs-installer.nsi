@@ -9,11 +9,11 @@
 
 ; Additional defines that can be given via cmd line
 !ifndef PRODUCT_VERSION
-  !define PRODUCT_VERSION "1.10.1"
+  !define PRODUCT_VERSION "1.10.2"
 !endif
 
 !ifndef DOKAN_VERSION
-  !define DOKAN_VERSION "1.2.1.2000"
+  !define DOKAN_VERSION "1.3.0.1000"
 !endif
 
 !ifndef DEP_DIR

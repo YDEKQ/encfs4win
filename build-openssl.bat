@@ -23,8 +23,8 @@ REM along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 REM versioning variables 
-set VERSION=1.0.2r
-set VERSION_STR=1_0_2r
+set VERSION=1.0.2t
+set VERSION_STR=1_0_2t
 set SOURCE_URI=https://github.com/openssl/openssl.git
 
 

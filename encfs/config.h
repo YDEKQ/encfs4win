@@ -143,7 +143,7 @@
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "1.10.1"
+#define VERSION "1.10.2"
 
 /* xattr functions have additional options */
 /* #undef XATTR_ADD_OPT */
