@@ -93,9 +93,9 @@ echo ==================================================
 echo              BUILDING DOKANY LIBRARIES             
 echo ==================================================
 if defined USE_LEGACY_DOKAN (
-  msbuild dokan.sln /p:WindowsTargetPlatformVersion=8.1 /p:PlatformToolset=v140  /p:ForceImportBeforeCppTargets="%DEPS_DIR%\dokan-legacy.props" /p:Configuration=Release /p:Platform=Win32 /t:Clean,Build
+  msbuild dokan.sln /p:WindowsTargetPlatformVersion=10.0.18362.0 /p:PlatformToolset=v140  /p:ForceImportBeforeCppTargets="%DEPS_DIR%\dokan-legacy.props" /p:Configuration=Release /p:Platform=Win32 /t:Clean,Build
 ) else (
-  msbuild dokan.sln /p:WindowsTargetPlatformVersion=8.1 /p:PlatformToolset=v140 /p:Configuration=Release /p:Platform=Win32 /t:Clean,Build
+  msbuild dokan.sln /p:WindowsTargetPlatformVersion=10.0.18362.0 /p:PlatformToolset=v140 /p:Configuration=Release /p:Platform=Win32 /t:Clean,Build
 )
 
 REM verify necessary libraries were successfully built 
