@@ -23,8 +23,8 @@ REM along with this program.  If not, see <http://www.gnu.org/licenses/>.
 REM Up front environment variables 
 set PROJECT_DIR=%CD%
 set DEP_DIR="%PROJECT_DIR%\..\encfs-bin\"
-set PRODUCT_VERSION="1.11.0-beta.1"
-set DOKAN_VERSION="1.2.2.1000"
+set PRODUCT_VERSION="1.11.0-beta.2"
+set DOKAN_VERSION="1.3.1.1000"
 
 
 

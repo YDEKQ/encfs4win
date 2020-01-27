@@ -33,8 +33,8 @@ if defined USE_LEGACY_DOKAN (
   set VERSION=v0.7.4
   set VERSION_STR=0.7.4
 ) else (
-  set VERSION=v1.2.2.1000
-  set VERSION_STR=v1.2.2.1000
+  set VERSION=v1.3.1.1000
+  set VERSION_STR=v1.3.1.1000
 )
 
 

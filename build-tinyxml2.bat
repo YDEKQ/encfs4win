@@ -23,8 +23,8 @@ REM along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 REM versioning variables 
-set VERSION=7.0.1
-set VERSION_STR=7.0.1
+set VERSION=7.1.0
+set VERSION_STR=7.1.0
 set SOURCE_URI=https://github.com/leethomason/tinyxml2.git
 
 
