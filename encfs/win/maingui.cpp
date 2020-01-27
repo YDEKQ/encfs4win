@@ -276,7 +276,11 @@ static void createConfig(const std::string& rootDir, bool paranoid, const char* 
     keySize = 256;
     blockSize = DefaultBlockSize;
     alg = findCipherAlgorithm("AES", keySize);
+#if defined(DEFAULT_CASE_INSENSITIVE)
+    nameIOIface = BlockNameIO::CurrentInterface(true);
+#else
     nameIOIface = BlockNameIO::CurrentInterface();
+#endif 
     blockMACBytes = 8;
     blockMACRandBytes = 0; // using uniqueIV, so this isn't necessary
     uniqueIV = true;
@@ -293,7 +297,11 @@ static void createConfig(const std::string& rootDir, bool paranoid, const char* 
     alg = findCipherAlgorithm("AES", keySize);
     blockMACBytes = 0;
     externalIV = false;
+#if defined(DEFAULT_CASE_INSENSITIVE)
+    nameIOIface = BlockNameIO::CurrentInterface(true);
+#else
     nameIOIface = BlockNameIO::CurrentInterface();
+#endif 
 
     if (!reverseEncryption)
     {

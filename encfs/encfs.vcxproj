@@ -112,7 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\;$(OPENSSL_ROOT)\include;$(DOKAN_ROOT)\dokan_fuse\include;$(DOKAN_ROOT)\sys;..\deps\tinyxml2;..\deps\easyloggingpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;ENCFS_EXPORTS;RLOG_COMPONENT=rlog;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;ENCFS_EXPORTS;RLOG_COMPONENT=rlog;_CRT_SECURE_NO_WARNINGS;DEFAULT_CASE_INSENSITIVE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
